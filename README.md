@@ -1,19 +1,19 @@
 # Flet-app
-Simple cross platform application using Python Flet
+Aplicativos multi plataforma com Python
 
-**Insall flet**
+**Instalação do flet**
 ```
 pip install flet --user
 ```
-**Run application**
+**Rodar aplicação**
 ```
 flet run app.py
 ```
-or `python app.py`
+ou `python app.py`
 
 
-## Coding
-### Creating a window
+## Codificando
+### Criando uma janela
 ```python
 import flet as ft
 
