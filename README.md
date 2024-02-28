@@ -5,6 +5,12 @@ Simple cross platform application using Python Flet
 ```
 pip install flet --user
 ```
+**Run application**
+```
+flet run app.py
+```
+or python app.py
+
 
 ## Coding
 ### Creating a window
