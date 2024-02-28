@@ -30,7 +30,7 @@ Com os Controladores é possível criar tudo em sua interface, desde textos a in
 ![image](https://github.com/IK-R-S/Flet-app/assets/73291742/a0927160-7c04-4f3c-ab96-edbb8b6647d2)
 
 
-```
+```python
 import flet as ft
 from flet import Text, Image
 
