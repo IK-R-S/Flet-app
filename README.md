@@ -34,17 +34,24 @@ Com os Controladores é possível criar tudo em sua interface, desde textos a in
 import flet as ft
 from flet import Text, Image
 
+
 def main(page: ft.Page):
+    # Page attributes
     page.title = 'Flet app'
     page.window_width =  600
     page.window_height = 500
     page.vertical_alignment = 'center'
     page.horizontal_alignment = 'center'
-    welcome = Text('Welcome to Flet'.upper())
+
+    # Creating Controls (Widgets)
+    welcome = Text('Welcome to flet'.upper())
     logo = Image(src='https://flet.dev/img/logo.svg', width=30, height=30)
 
+    # Adding Controls to Page
     page.add(welcome, logo)
 
-ft.app(target=main)
+# Running application
+ft.app(target=main) #view=ft.WEB_BROWSER
+
 ```
 Note que `page.add(welcome, logo)` atualiza os controladores (elementos) da página main, logo, se trocar a ordem a imagem irá aparecer em cima do texto de "welcome";
